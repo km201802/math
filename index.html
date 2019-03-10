@@ -4,7 +4,7 @@ var arista = 1;
 var bisect = arista * Math.sqrt(3/4);
 var apotema = 0.5 * Math.tan(30 * (Math.PI/180));
 var radius = 0.5 * Math.cos(30 * (Math.PI/180));
-var dihedral = Marh.acos(apotema/bisect) * (180/Math.PI);
+var dihedral = Math.acos(apotema/bisect) * (180/Math.PI);
   
 alert(dihedral);
 
